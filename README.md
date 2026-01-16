@@ -1,1 +1,1 @@
-# system-retrievel-fundamentals
+# system-retrieval-fundamentals
