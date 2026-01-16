@@ -25,7 +25,7 @@ def preprocess(text):
     
     tokens = nltk.word_tokenize(text_lower)
     
-    return [word for word in tokens if word.isalnum()]
+    return [word for word in tokens if word.isalnum() and word not in stop_words]
 
 
 preprocess_docs = [" ".join(preprocess(doc)) for doc in documents]
